@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+	box-sizing: border-box;
+}
+section {
+	position: relative;
+	width: 100%;
+	/* min-height: 100vh; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(179.93deg, #F9EEEE 0.06%, #F4F4FF 99.94%);
+	padding: 70px;
+}
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	padding: 8px 8px;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+header .logo {
+	width: 80px;	
+	margin-right: -100px;
+	filter: drop-shadow(5px 5px 3px rgba(0,0,0,0.3));
+}
+
+header .judul {
+	position: absolute;
+	margin-left: 80px;
+	font-size: 30px;
+	font-family: 'Lobster Two', cursive;
+	font-style: italic;
+	background: linear-gradient(180deg, rgba(248, 209, 231,1)0%,
+	rgba(254, 202, 174,1)100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+	
+header ul {
+	position: relative;
+	display: flex;
+}
+header ul li {
+	list-style: none;
+}
+header ul li a {
+	width: 25px;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 20px;
+	color: #333;
+}
+
+header .linda {
+	width: 25px;
+	height: 25px;
+	margin-top: -2px;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content .textBox {
+	width: 50%;
+	position: relative;
+}
+.content .textBox h2 {
+	color: #333;
+	font-size: 50px;
+	margin-top: -70px;
+	line-height: 1.7em;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.content .textBox p {
+	color: #333;
+	font-size: 16px;
+	letter-spacing: 0.2px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.content .search {
+	width: 400px;
+	height: 50px;
+	position: absolute;
+	left: -1%;
+	right: 60%;
+	top: 150%;
+	bottom: 50%;
+	box-sizing: border-box;
+	background: rgba(248, 239, 239, 0.29) url(../search.png) no-repeat scroll 10px 10px;
+	background-size: 30px;
+	background-position-y: center;
+	background-position-x: 15px;
+	padding-left: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.20);
+	border-radius: 90px;
+}
+
+::placeholder {
+	font-weight: 700px;
+	letter-spacing: 0.8px;
+	font-size: 19px;
+}
+
+.content .imgBox {
+	margin-right: -70px;
+	margin-top: 50px;
+}
+
+.content span {
+	font-size: 12px;
+}
+
+/* kotak about */
+.container-satu {
+	width: 100%;
+	margin-top: -2px;
+	background: linear-gradient(179.93deg, #F9EEEE 0.06%, #F4F4FF 99.94%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+.kolom-satu {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-size: 40px;
+	justify-content: space-between;
+	font-size: 60px;
+}
+
+
+.kolom-satu p {
+	color: black;
+	text-align: center;
+}
+
+.kolom-satu span {
+	color: #704C21;
+}
+
+.kolom-tiga {
+	max-width: 85%;
+	padding-bottom: 50px;
+}
+
+.kolom-tiga h3 {
+	font-size: 60px;
+	margin-top: 75px;
+	width: fit-content;
+	padding-right: 450px;
+	border-bottom: rgb(54, 54, 54) solid 2px;
+}
+
+.kolom-tiga span {
+	color: #704C21;
+
+}
+
+
+.kolom-tiga hr {
+	margin-bottom: 50px;
+}
+
+
+.saya {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;	
+}
+
+.specific{
+	margin-right: 180px;
+	font-size: 25px;
+	font-family: inter;
+}
+
+.wulan {
+	color: #5D5F61;
+}
+
+/* halaman login */
+
+.container-login {
+	width: 100%;	
+	background: linear-gradient(to right, #F4F4FF, #E6CECE);
+	display: flex;
+}
+
+.halaman .pg {
+	width: 685px;
+	z-index: -99;
+}
+
+.content-login {
+	display: inline-block;
+}
+
+.container-login li {
+	list-style: none;
+}
+
