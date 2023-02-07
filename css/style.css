@@ -238,14 +238,22 @@ header .favorite {
 }
 
 .konten-isi {
-	width: 670px;
+	width: 400px;
+	margin-top: 30px;
+	background-color: rgba(13, 13, 13, 0.2);
+	margin-left: 100px;
+	height: 450px;
 }
 
 .konten-isi h1 {
-	margin-top: 15px;
-	font-family: 'Noto Sans NKo', sans-serif;
+	margin-top: 10px;
+	/* margin-bottom: 15px; */
+	padding-left: 5px;
+	font-family: 'Chivo', sans-serif;
 	font-size: 35px;
 	font-weight: bold;
+	font-size: 30px;
+	color: white;	
 }
 
 .google, .mail, .pass, .name {
@@ -253,8 +261,8 @@ header .favorite {
 }
 
 .mail, .pass, .name {
-	width: 410px;
-	height: 45px;
+	width: 300px;
+	height: 40px;
 }
 
 .coloum {
@@ -266,8 +274,8 @@ header .favorite {
 }
 
 .coloum .google {
-	width: 300px;
-	height: 40px;
+	width: 200px;
+	height: 30px;
 	background-image: url(../img/google.png);
 	background-repeat: no-repeat;
 	background-size: 30px;
@@ -276,7 +284,7 @@ header .favorite {
 }
 
 .google, .pass, .mail, .name {
-	font-family: 'Noto Sans NKo', sans-serif;
+	font-family: 'Chivo', sans-serif;
 	border-color: #989090C2;
 }
 
@@ -291,7 +299,7 @@ header .favorite {
 	background-position-y: center;
 	background-position-x: 360px;
 	padding: 0px 15px;
-	margin-top: 45px;	
+	margin-top: 45px;
 }
 
 .coloum .name {
@@ -313,15 +321,15 @@ header .favorite {
 }
 
 .coloum .sumbit {
-	width: 300px;
-	height: 60px;
+	width: 200px;
+	height: 40px;
 	margin-top: 50px;
-	font-size: 17px;
 	letter-spacing: 0.6;
+	font-size: 17px;
 	font-family: 'Hind Guntur', sans-serif;
-	background-image:linear-gradient(90deg,#E6CECE, #D1CCF4) ;
+	background-image: linear-gradient(90deg,#E6CECE, #D1CCF4);
 	color: white;
-	font-weight: bold,;
+	font-weight: bold;
 	border-radius: 9px;
 	border-color: rgb(137, 182, 209);
 }
